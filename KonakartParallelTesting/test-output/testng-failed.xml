@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" name="Failed suite [suite]" parallel="tests">
+  <test thread-count="3" name="Test validate in firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="priceSlideBar" invocation-numbers="0 1 2 3"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="heroImgContent" invocation-numbers="0"/>
+          <include name="heroImgSortingDateFunctionality" invocation-numbers="0"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="intitailizeBrowser"/>
+          <include name="searchBoxWithoutSearchOption" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality -->
+    </classes>
+  </test> <!-- Test validate in firefox(failed) -->
+  <test thread-count="3" name="Test validate in chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="priceSlideBar" invocation-numbers="0 1 2 3"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="heroImgContent" invocation-numbers="0"/>
+          <include name="heroImgSortingDateFunctionality" invocation-numbers="0"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="intitailizeBrowser"/>
+          <include name="searchBoxWithoutSearchOption" invocation-numbers="0"/>
+          <include name="productDetailsVerify" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality -->
+    </classes>
+  </test> <!-- Test validate in chrome(failed) -->
+  <test thread-count="3" name="Test validate in internet explorer(failed)" parallel="tests">
+    <parameter name="browser" value="internet explorer"/>
+    <classes>
+      <class name="com.konakart.KonakartParallelTesting.testscripts.HomePageSearchBoxFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="intitailizeBrowser"/>
+          <include name="searchBox" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.HomePageSearchBoxFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="priceSlideBar" invocation-numbers="0 1 2 3"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="heroImgSortingDateFunctionality" invocation-numbers="0"/>
+          <include name="intitailizeBrowser"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality -->
+      <class name="com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality">
+        <methods>
+          <include name="endClass"/>
+          <include name="intitailizeBrowser"/>
+          <include name="searchBoxWithoutSearchOption" invocation-numbers="0"/>
+          <include name="productDetailsVerify" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality -->
+    </classes>
+  </test> <!-- Test validate in internet explorer(failed) -->
+</suite> <!-- Failed suite [suite] -->
