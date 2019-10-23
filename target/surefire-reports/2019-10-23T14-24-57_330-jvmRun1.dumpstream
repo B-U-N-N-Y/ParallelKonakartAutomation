@@ -1,0 +1,897 @@
+# Created at 2019-10-23T14:28:49.285
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-10-23T14:28:59.252
+Unexpected IOException with stream: css,a[id='search-button']
+
+
+# Created at 2019-10-23T14:28:59.312
+Unexpected IOException with stream: Element is not clickable or not present
+
+
+# Created at 2019-10-23T14:28:59.313
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0367b163-32b7-421b-b004-5a18448fa0e5
+*** Element info: {Using=css selector, value=a[id='search-button']}
+
+# Created at 2019-10-23T14:28:59.314
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.315
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-10-23T14:28:59.315
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.316
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2019-10-23T14:28:59.316
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.317
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-10-23T14:28:59.317
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.318
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-10-23T14:28:59.318
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.319
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2019-10-23T14:28:59.320
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.320
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2019-10-23T14:28:59.321
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.322
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2019-10-23T14:28:59.323
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.324
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-10-23T14:28:59.325
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.326
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-10-23T14:28:59.327
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.328
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-10-23T14:28:59.329
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.330
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2019-10-23T14:28:59.330
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.331
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+
+# Created at 2019-10-23T14:28:59.332
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.333
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+
+# Created at 2019-10-23T14:28:59.334
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.334
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2019-10-23T14:28:59.335
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.336
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.helpers.Utility.selectLocator(Utility.java:55)
+
+# Created at 2019-10-23T14:28:59.336
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.337
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.helpers.Utility.clickElement(Utility.java:70)
+
+# Created at 2019-10-23T14:28:59.338
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.339
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality.searchBoxWithoutSearchOption(ComuterPeripheralsFunctionality.java:32)
+
+# Created at 2019-10-23T14:28:59.339
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.340
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-10-23T14:28:59.341
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.342
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2019-10-23T14:28:59.342
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.343
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2019-10-23T14:28:59.344
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.345
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2019-10-23T14:28:59.345
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.347
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2019-10-23T14:28:59.348
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.349
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2019-10-23T14:28:59.349
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.350
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2019-10-23T14:28:59.351
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.352
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2019-10-23T14:28:59.352
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.353
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2019-10-23T14:28:59.354
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.355
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2019-10-23T14:28:59.356
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.356
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2019-10-23T14:28:59.357
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.358
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2019-10-23T14:28:59.359
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.360
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2019-10-23T14:28:59.361
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.361
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+
+# Created at 2019-10-23T14:28:59.362
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.363
+Unexpected IOException with stream: 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+
+# Created at 2019-10-23T14:28:59.363
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.364
+Unexpected IOException with stream: 	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+
+# Created at 2019-10-23T14:28:59.365
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.365
+Unexpected IOException with stream: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+# Created at 2019-10-23T14:28:59.366
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.367
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+# Created at 2019-10-23T14:28:59.368
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.369
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+# Created at 2019-10-23T14:28:59.370
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.370
+Unexpected IOException with stream: 	at java.lang.Thread.run(Thread.java:748)
+
+# Created at 2019-10-23T14:28:59.371
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.426
+Unexpected IOException with stream: Element is not present
+
+
+# Created at 2019-10-23T14:28:59.515
+Unexpected IOException with stream: Drop down functionality is not working
+
+
+# Created at 2019-10-23T14:28:59.515
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0367b163-32b7-421b-b004-5a18448fa0e5
+*** Element info: {Using=css selector, value=#top-cat-list.rounded-corners-left}
+
+# Created at 2019-10-23T14:28:59.516
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.517
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-10-23T14:28:59.517
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.518
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2019-10-23T14:28:59.518
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.519
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-10-23T14:28:59.520
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.520
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-10-23T14:28:59.521
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.522
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2019-10-23T14:28:59.523
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.524
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2019-10-23T14:28:59.525
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.525
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2019-10-23T14:28:59.526
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.527
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-10-23T14:28:59.528
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.528
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-10-23T14:28:59.529
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.530
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-10-23T14:28:59.531
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.532
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2019-10-23T14:28:59.533
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.534
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+
+# Created at 2019-10-23T14:28:59.535
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.537
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+
+# Created at 2019-10-23T14:28:59.538
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.539
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2019-10-23T14:28:59.539
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.540
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.helpers.Utility.selectLocator(Utility.java:55)
+
+# Created at 2019-10-23T14:28:59.541
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.542
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.helpers.Utility.selectDropdownByText(Utility.java:96)
+
+# Created at 2019-10-23T14:28:59.542
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.543
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.pages.SearchBoxFunction.serachBoxInput(SearchBoxFunction.java:37)
+
+# Created at 2019-10-23T14:28:59.544
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.545
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality.searchBoxWithSearchOption(ComuterPeripheralsFunctionality.java:40)
+
+# Created at 2019-10-23T14:28:59.546
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.546
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-10-23T14:28:59.547
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.548
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2019-10-23T14:28:59.549
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.549
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2019-10-23T14:28:59.550
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.551
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2019-10-23T14:28:59.552
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.553
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2019-10-23T14:28:59.554
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.555
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2019-10-23T14:28:59.556
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.557
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2019-10-23T14:28:59.558
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.559
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2019-10-23T14:28:59.560
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.561
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2019-10-23T14:28:59.562
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.563
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2019-10-23T14:28:59.564
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.565
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2019-10-23T14:28:59.566
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.567
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2019-10-23T14:28:59.568
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.569
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2019-10-23T14:28:59.570
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.571
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+
+# Created at 2019-10-23T14:28:59.572
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.573
+Unexpected IOException with stream: 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+
+# Created at 2019-10-23T14:28:59.574
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.575
+Unexpected IOException with stream: 	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+
+# Created at 2019-10-23T14:28:59.575
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.576
+Unexpected IOException with stream: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+# Created at 2019-10-23T14:28:59.578
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.578
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+# Created at 2019-10-23T14:28:59.580
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.580
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+# Created at 2019-10-23T14:28:59.581
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.582
+Unexpected IOException with stream: 	at java.lang.Thread.run(Thread.java:748)
+
+# Created at 2019-10-23T14:28:59.583
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:28:59.645
+Unexpected IOException with stream: Send text is not working
+
+
+# Created at 2019-10-23T14:29:04.645
+Unexpected IOException with stream: css,ul#ui-id-2>li:nth-child(2)
+
+
+# Created at 2019-10-23T14:29:04.713
+Unexpected IOException with stream: Element is not clickable or not present
+
+
+# Created at 2019-10-23T14:29:04.714
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: Currently focused window has been closed.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINLT-087', ip: '55.55.52.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: https://www.konakart.com/ko..., nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 0367b163-32b7-421b-b004-5a18448fa0e5
+*** Element info: {Using=css selector, value=ul#ui-id-2>li:nth-child(2)}
+
+# Created at 2019-10-23T14:29:04.714
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.715
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2019-10-23T14:29:04.716
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.717
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2019-10-23T14:29:04.718
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.718
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2019-10-23T14:29:04.719
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.720
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created at 2019-10-23T14:29:04.721
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.721
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2019-10-23T14:29:04.722
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.723
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2019-10-23T14:29:04.723
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.724
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2019-10-23T14:29:04.725
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.725
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2019-10-23T14:29:04.726
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.726
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2019-10-23T14:29:04.727
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.728
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+
+# Created at 2019-10-23T14:29:04.728
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.729
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+
+# Created at 2019-10-23T14:29:04.729
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.730
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+
+# Created at 2019-10-23T14:29:04.730
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.731
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+
+# Created at 2019-10-23T14:29:04.731
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.732
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+
+# Created at 2019-10-23T14:29:04.732
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.733
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.helpers.Utility.selectLocator(Utility.java:55)
+
+# Created at 2019-10-23T14:29:04.734
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.734
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.helpers.Utility.clickElement(Utility.java:70)
+
+# Created at 2019-10-23T14:29:04.735
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.735
+Unexpected IOException with stream: 	at com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality.searchBoxWithSearchOption(ComuterPeripheralsFunctionality.java:49)
+
+# Created at 2019-10-23T14:29:04.736
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.736
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-10-23T14:29:04.737
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.738
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2019-10-23T14:29:04.738
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.739
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2019-10-23T14:29:04.740
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.740
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created at 2019-10-23T14:29:04.741
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.742
+Unexpected IOException with stream: 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+
+# Created at 2019-10-23T14:29:04.743
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.744
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+
+# Created at 2019-10-23T14:29:04.745
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.746
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+
+# Created at 2019-10-23T14:29:04.747
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.748
+Unexpected IOException with stream: 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+
+# Created at 2019-10-23T14:29:04.748
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.749
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+
+# Created at 2019-10-23T14:29:04.750
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.751
+Unexpected IOException with stream: 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+
+# Created at 2019-10-23T14:29:04.752
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.753
+Unexpected IOException with stream: 	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+
+# Created at 2019-10-23T14:29:04.754
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.755
+Unexpected IOException with stream: 	at org.testng.TestRunner.run(TestRunner.java:505)
+
+# Created at 2019-10-23T14:29:04.756
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.756
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+
+# Created at 2019-10-23T14:29:04.757
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.758
+Unexpected IOException with stream: 	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+
+# Created at 2019-10-23T14:29:04.759
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.760
+Unexpected IOException with stream: 	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+
+# Created at 2019-10-23T14:29:04.761
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.762
+Unexpected IOException with stream: 	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+
+# Created at 2019-10-23T14:29:04.762
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.763
+Unexpected IOException with stream: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+# Created at 2019-10-23T14:29:04.764
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.764
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+
+# Created at 2019-10-23T14:29:04.765
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.766
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+
+# Created at 2019-10-23T14:29:04.767
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:04.767
+Unexpected IOException with stream: 	at java.lang.Thread.run(Thread.java:748)
+
+# Created at 2019-10-23T14:29:04.768
+Unexpected IOException with stream: 
+
+
+# Created at 2019-10-23T14:29:05.476
+Unexpected IOException with stream: 
+===============================================
+suite
+Total tests run: 9, Failures: 6, Skips: 0
+===============================================
+
+
+
+# Created at 2019-10-23T14:29:05.722
+Unexpected IOException: 6,1,com.konakart.KonakartParallelTesting.testscripts.TestNGRunner,runTestFile(com.konakart.KonakartParallelTesting.testscripts.TestNGRunner),null,null,null
+
+
+# Created at 2019-10-23T14:29:05.723
+Unexpected IOException: 5,1,com.konakart.KonakartParallelTesting.testscripts.TestNGRunner,runTestFile(com.konakart.KonakartParallelTesting.testscripts.TestNGRunner),com.konakart.KonakartParallelTesting.testscripts.TestNGRunner,null,null
+
+
+# Created at 2019-10-23T14:29:05.724
+Unexpected IOException with stream: chrome
+
+
+# Created at 2019-10-23T14:29:05.725
+Unexpected IOException with stream: firefox
+
+
+# Created at 2019-10-23T14:29:05.726
+Unexpected IOException with stream: internet explorer
+
+
+# Created at 2019-10-23T14:29:05.844
+Unexpected IOException: 8,1,com.konakart.KonakartParallelTesting.testscripts.TestNGRunner,runTestFile(com.konakart.KonakartParallelTesting.testscripts.TestNGRunner),null,\000ACannot find class in classpath: com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality.java,null,\000ACannot find class in classpath: com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality.java,TestNGRunner.runTestFile:67 \00BB TestNG \000ACannot find class in classpath: com.kona...,org.testng.TestNGException: \000A\000ACannot find class in classpath: com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality.java\000A\0009at com.konakart.KonakartParallelTesting.testscripts.TestNGRunner.runTestFile(TestNGRunner.java:67)\000A
+
+
+# Created at 2019-10-23T14:29:06.175
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

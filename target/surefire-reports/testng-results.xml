@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="244817" started-at="2019-10-23T08:55:01Z" finished-at="2019-10-23T08:59:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="244817" started-at="2019-10-23T08:55:01Z" finished-at="2019-10-23T08:59:05Z">
+      <class name="com.konakart.KonakartParallelTesting.testscripts.TestNGRunner">
+        <test-method status="PASS" signature="runTestFile(java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.TestNGRunner@1e67b872]" name="runTestFile" duration-ms="83245" started-at="2019-10-23T08:55:02Z" data-provider="dynamic_class" finished-at="2019-10-23T08:56:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.konakart.KonakartParallelTesting.testscripts.HomePageSearchBoxFunctionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestFile -->
+        <test-method status="PASS" signature="runTestFile(java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.TestNGRunner@1e67b872]" name="runTestFile" duration-ms="69962" started-at="2019-10-23T08:56:25Z" data-provider="dynamic_class" finished-at="2019-10-23T08:57:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.konakart.KonakartParallelTesting.testscripts.HeroImageFunctionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestFile -->
+        <test-method status="PASS" signature="runTestFile(java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.TestNGRunner@1e67b872]" name="runTestFile" duration-ms="90201" started-at="2019-10-23T08:57:35Z" data-provider="dynamic_class" finished-at="2019-10-23T08:59:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestFile -->
+        <test-method status="FAIL" signature="runTestFile(java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.TestNGRunner@1e67b872]" name="runTestFile" duration-ms="5" started-at="2019-10-23T08:59:05Z" data-provider="dynamic_class" finished-at="2019-10-23T08:59:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality.java]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Cannot find class in classpath: com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality.java]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Cannot find class in classpath: com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality.java
+at org.testng.xml.XmlClass.loadClass(XmlClass.java:77)
+at org.testng.xml.XmlClass.getSupportClass(XmlClass.java:85)
+at org.testng.internal.ClassInfoMap.<init>(ClassInfoMap.java:28)
+at org.testng.internal.ClassInfoMap.<init>(ClassInfoMap.java:21)
+at org.testng.TestRunner.initMethods(TestRunner.java:369)
+at org.testng.TestRunner.init(TestRunner.java:271)
+at org.testng.TestRunner.init(TestRunner.java:241)
+at org.testng.TestRunner.<init>(TestRunner.java:167)
+at org.testng.SuiteRunner$DefaultTestRunnerFactory.newTestRunner(SuiteRunner.java:663)
+at org.testng.SuiteRunner.init(SuiteRunner.java:260)
+at org.testng.SuiteRunner.<init>(SuiteRunner.java:198)
+at org.testng.TestNG.createSuiteRunner(TestNG.java:1295)
+at org.testng.TestNG.createSuiteRunners(TestNG.java:1273)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1128)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.konakart.KonakartParallelTesting.testscripts.TestNGRunner.runTestFile(TestNGRunner.java:67)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestFile -->
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.TestNGRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
