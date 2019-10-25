@@ -29,13 +29,14 @@ public class DynamicXML {
 			browsernames.add(browser);
 		}
 
-		browsernames.forEach(browser -> System.out.println(browser));
+		
 		if (statusofclass.equalsIgnoreCase("Y")) {
+			browsernames.forEach(browser -> System.out.println(browser));
 			XmlSuite xmlSuite = new XmlSuite();
 			xmlSuite.setName("suite");
 			xmlSuite.setVerbose(1);
 			xmlSuite.setParallel(ParallelMode.TESTS);
-			xmlSuite.setThreadCount(3);
+			xmlSuite.setThreadCount(browsernames.size());
 
 			List<XmlSuite> suites = new ArrayList<XmlSuite>();
 

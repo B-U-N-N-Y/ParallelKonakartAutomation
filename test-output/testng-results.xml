@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="79467" started-at="2019-10-23T13:50:20Z" finished-at="2019-10-23T13:51:40Z">
+  <suite name="Suite" duration-ms="56567" started-at="2019-10-25T12:57:51Z" finished-at="2019-10-25T12:58:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="79467" started-at="2019-10-23T13:50:20Z" finished-at="2019-10-23T13:51:40Z">
+    <test name="Test" duration-ms="56567" started-at="2019-10-25T12:57:51Z" finished-at="2019-10-25T12:58:47Z">
       <class name="com.konakart.KonakartParallelTesting.testscripts.DynamicXML">
-        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@ae45eb6]" name="runTestFile" duration-ms="28140" started-at="2019-10-23T13:50:22Z" data-provider="dynamic_class" finished-at="2019-10-23T13:50:50Z">
+        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@6a41eaa2]" name="runTestFile" duration-ms="21" started-at="2019-10-25T12:57:52Z" data-provider="dynamic_class" finished-at="2019-10-25T12:57:52Z">
           <params>
             <param index="0">
               <value>
@@ -16,14 +16,14 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Y]]>
+                <![CDATA[N]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTestFile -->
-        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@ae45eb6]" name="runTestFile" duration-ms="12" started-at="2019-10-23T13:50:50Z" data-provider="dynamic_class" finished-at="2019-10-23T13:50:50Z">
+        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@6a41eaa2]" name="runTestFile" duration-ms="5" started-at="2019-10-25T12:57:52Z" data-provider="dynamic_class" finished-at="2019-10-25T12:57:52Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTestFile -->
-        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@ae45eb6]" name="runTestFile" duration-ms="9" started-at="2019-10-23T13:50:50Z" data-provider="dynamic_class" finished-at="2019-10-23T13:50:50Z">
+        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@6a41eaa2]" name="runTestFile" duration-ms="4" started-at="2019-10-25T12:57:52Z" data-provider="dynamic_class" finished-at="2019-10-25T12:57:52Z">
           <params>
             <param index="0">
               <value>
@@ -55,11 +55,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runTestFile -->
-        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@ae45eb6]" name="runTestFile" duration-ms="49971" started-at="2019-10-23T13:50:50Z" data-provider="dynamic_class" finished-at="2019-10-23T13:51:40Z">
+        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@6a41eaa2]" name="runTestFile" duration-ms="5" started-at="2019-10-25T12:57:52Z" data-provider="dynamic_class" finished-at="2019-10-25T12:57:52Z">
           <params>
             <param index="0">
               <value>
                 <![CDATA[com.konakart.KonakartParallelTesting.testscripts.PriceSlideBarFunctionality]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTestFile -->
+        <test-method status="PASS" signature="runTestFile(java.lang.String, java.lang.String)[pri:0, instance:com.konakart.KonakartParallelTesting.testscripts.DynamicXML@6a41eaa2]" name="runTestFile" duration-ms="55150" started-at="2019-10-25T12:57:52Z" data-provider="dynamic_class" finished-at="2019-10-25T12:58:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.konakart.KonakartParallelTesting.testscripts.TableTest]]>
               </value>
             </param>
             <param index="1">
@@ -72,6 +88,6 @@
           </reporter-output>
         </test-method> <!-- runTestFile -->
       </class> <!-- com.konakart.KonakartParallelTesting.testscripts.DynamicXML -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

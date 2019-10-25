@@ -1,30 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Failed suite [suite]" parallel="tests">
-  <test thread-count="3" name="Test validate in firefox(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality">
+      <class name="com.konakart.KonakartParallelTesting.testscripts.TableTest">
         <methods>
+          <include name="test"/>
           <include name="intitailizeBrowser"/>
           <include name="endTest"/>
-          <include name="searchBoxWithoutSearchOption" invocation-numbers="0"/>
-          <include name="productDetailsVerify" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality -->
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.TableTest -->
     </classes>
-  </test> <!-- Test validate in firefox(failed) -->
-  <test thread-count="3" name="Test validate in chrome(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality">
-        <methods>
-          <include name="intitailizeBrowser"/>
-          <include name="endTest"/>
-          <include name="searchBoxWithoutSearchOption" invocation-numbers="0"/>
-          <include name="productDetailsVerify" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality -->
-    </classes>
-  </test> <!-- Test validate in chrome(failed) -->
-</suite> <!-- Failed suite [suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

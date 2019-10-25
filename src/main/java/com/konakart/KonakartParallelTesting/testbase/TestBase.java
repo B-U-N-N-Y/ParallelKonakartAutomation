@@ -17,6 +17,7 @@ import com.konakart.KonakartParallelTesting.constants.FilePath;
 import com.konakart.KonakartParallelTesting.constants.GridConnection;
 import com.konakart.KonakartParallelTesting.extentreports.ExtentReport;
 import com.konakart.KonakartParallelTesting.utils.ReadPropertiesFile;
+import io.github.bonigarcia.wdm.*;
 
 /**
  * This class operate to choose the driver and choose that it run with grid
@@ -56,17 +57,17 @@ public class TestBase {
 		if (con.equals("normal")) {
 
 			if (browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", FilePath.CHROME_PATH);
+				WebDriverManager.chromedriver().arch64().setup();
 
 				driver = new ChromeDriver();
 				driver.get(url);
 
 			} else if (browser.equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.gecko.driver", FilePath.FIREFOX_PATH);
+				WebDriverManager.firefoxdriver().arch64().setup();
 				driver = new FirefoxDriver();
 				driver.get(url);
 			} else if (browser.equalsIgnoreCase("internet explorer")) {
-				System.setProperty("webdriver.ie.driver", FilePath.IE_PATH);
+				WebDriverManager.iedriver().arch32().setup();
 				DesiredCapabilities ieCaps = DesiredCapabilities.internetExplorer();
 				ieCaps.setCapability(InternetExplorerDriver.INITIAL_BROWSER_URL, url);
 				driver = new InternetExplorerDriver(ieCaps);
