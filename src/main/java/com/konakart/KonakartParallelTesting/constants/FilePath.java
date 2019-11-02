@@ -30,6 +30,10 @@ public class FilePath {
 	public final static String VALIDATION_PROPERTY_FILE= RESOURCES_HOME+"testdata"+File.separator+"validatedata.properties";
 	public final static String TESTDATA_FILE= RESOURCES_HOME+"testdata"+File.separator+"testdata.xlsx"; 
 	public final static int TIMEOUT_INSECONDS = 30;
+	//public final static int EXPLICITWAIT_TIMEOUT_INSECONDS = 30;
+	public final static int POLLING_TIMEOUT_INSECONDS = 2;
+	
+
 //	public static void main(String[] args) {
 //		System.out.println(LOG4J_FILE);
 //	}

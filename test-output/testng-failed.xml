@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite thread-count="1" name="Failed suite [suite]" parallel="tests">
+  <test thread-count="1" name="Test validate in chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.phptravels.net/"/>
     <classes>
-      <class name="com.konakart.KonakartParallelTesting.testscripts.TableTest">
+      <class name="com.konakart.KonakartParallelTesting.testscripts.PhpTravelsTest">
         <methods>
-          <include name="test"/>
+          <include name="flightBookinf" invocation-numbers="0"/>
           <include name="intitailizeBrowser"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.TableTest -->
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.PhpTravelsTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test validate in chrome(failed) -->
+</suite> <!-- Failed suite [suite] -->

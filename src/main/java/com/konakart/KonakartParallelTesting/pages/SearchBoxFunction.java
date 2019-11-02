@@ -6,7 +6,6 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
-import com.konakart.KonakartParallelTesting.extentreports.ExtentReport;
 import com.konakart.KonakartParallelTesting.helpers.Utility;
 import com.konakart.KonakartParallelTesting.logreports.LogReport;
 
@@ -49,7 +48,7 @@ public class SearchBoxFunction {
 		String title = driver.getTitle();
 		Assert.assertEquals(title, validatedata, "Page is not redirect properly");
 		//ExtentReport.messagePrint("Page is redirecting to proper web page");
-		log.info("Page is redirecting to proper web page");
+		logreport.info("Page is redirecting to proper web page");
 	}
 
 	/**
@@ -65,7 +64,7 @@ public class SearchBoxFunction {
 		for (int index = 0; index < title.length; index++) {
 			Assert.assertEquals(title[index], data[5 + index], "Product title validationfailed");
 			//ExtentReport.messagePrint("Product title validate successfully");
-			log.info("Product title validate successfully");
+			logreport.info("Product title validate successfully");
 		}
 	}
 
@@ -84,6 +83,6 @@ public class SearchBoxFunction {
 		String errormsg = utility.getElement(loc.getProperty("loc.konakart.erromsg.txt")).getText();
 		Assert.assertEquals(errormsg, data[4], "Negative input validation failed");
 	//	ExtentReport.messagePrint("Negative input validation passed");
-		log.info("Negative input validation passed");
+		logreport.info("Negative input validation passed");
 	}
 }

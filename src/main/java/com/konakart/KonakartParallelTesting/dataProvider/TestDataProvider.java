@@ -95,6 +95,13 @@ public  class TestDataProvider {
 		Object[][] getData = provideData.provideData();
 		return getData;
 	}
+	
+	@DataProvider(name = "flightInput")
+	public Object[][] getflightdetail() {
+		ProvideData provideData = new ProvideData(FilePath.TESTDATA_FILE, 7);
+		Object[][] getData = provideData.provideData();
+		return getData;
+	}
 
 //	public static void main(String[] args) {
 //

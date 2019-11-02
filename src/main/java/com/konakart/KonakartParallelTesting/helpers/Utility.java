@@ -13,6 +13,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Select;
 
+import com.konakart.KonakartParallelTesting.constants.FilePath;
 import com.konakart.KonakartParallelTesting.testbase.TestBase;
 
 /**
@@ -70,8 +71,8 @@ public class Utility  {
 			selectLocator(locator);
 
 			FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
-					.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofSeconds(2))
-					.withTimeout(Duration.ofSeconds(30));
+					.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofSeconds(FilePath.POLLING_TIMEOUT_INSECONDS))
+					.withTimeout(Duration.ofSeconds(FilePath.TIMEOUT_INSECONDS));
 			fluentWait.until(new Function<WebDriver, Boolean>() {
 				public Boolean apply(WebDriver driver) {
 					selectLocator(locator);
@@ -94,8 +95,8 @@ public class Utility  {
 	public void selectDropdownByText(final String locator, final String text) {
 		try {
 			selectLocator(locator);
-			FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).pollingEvery(Duration.ofSeconds(2))
-					.withTimeout(Duration.ofSeconds(30));
+			FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver).pollingEvery(Duration.ofSeconds(FilePath.POLLING_TIMEOUT_INSECONDS))
+					.withTimeout(Duration.ofSeconds(FilePath.TIMEOUT_INSECONDS));
 			fluentWait.until(new Function<WebDriver, Boolean>() {
 				public Boolean apply(WebDriver driver) {
 					Select trip = new Select(element);
@@ -120,8 +121,8 @@ public class Utility  {
 		try {
 			selectLocator(locator);
 			FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
-					.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofSeconds(2))
-					.withTimeout(Duration.ofSeconds(30));
+					.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofSeconds(FilePath.POLLING_TIMEOUT_INSECONDS))
+					.withTimeout(Duration.ofSeconds(FilePath.TIMEOUT_INSECONDS));
 
 			fluentWait.until(new Function<WebDriver, Boolean>() {
 				public Boolean apply(WebDriver driver) {
@@ -277,8 +278,8 @@ public class Utility  {
 	public void selectDropdownByIndex(final String locator, final int index) {
 		try {
 			FluentWait<WebDriver> fluentWait = new FluentWait<WebDriver>(driver)
-					.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofSeconds(2))
-					.withTimeout(Duration.ofSeconds(30));
+					.ignoring(ElementClickInterceptedException.class).pollingEvery(Duration.ofSeconds(FilePath.POLLING_TIMEOUT_INSECONDS))
+					.withTimeout(Duration.ofSeconds(FilePath.TIMEOUT_INSECONDS));
 			fluentWait.until(new Function<WebDriver, Boolean>() {
 				public Boolean apply(WebDriver driver) {
 					selectLocator(locator);
@@ -331,5 +332,13 @@ public class Utility  {
 		}
 
 		return element;
+	}
+	
+	public void clickElementMultipleTime(int num,String locator) {
+		selectLocator(locator);
+		for(int index=0;index<num;index++) {
+			element.click();
+		}
+	
 	}
 }

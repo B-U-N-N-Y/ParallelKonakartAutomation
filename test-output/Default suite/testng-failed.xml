@@ -3,13 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.konakart.KonakartParallelTesting.testscripts.TableTest">
+      <class name="com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality">
         <methods>
-          <include name="test"/>
-          <include name="intitailizeBrowser"/>
+          <include name="searchBoxWithSearchOption"/>
           <include name="endTest"/>
+          <include name="intitailizeBrowser"/>
+          <include name="searchBoxWithoutSearchOption"/>
+          <include name="productDetailsVerify"/>
         </methods>
-      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.TableTest -->
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.ComuterPeripheralsFunctionality -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

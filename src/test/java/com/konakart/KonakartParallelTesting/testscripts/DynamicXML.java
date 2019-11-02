@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 
+import org.testng.ITestNGListener;
 import org.testng.TestNG;
 import org.testng.annotations.Test;
 import org.testng.xml.XmlClass;
@@ -15,12 +16,13 @@ import org.testng.xml.XmlTest;
 
 import com.konakart.KonakartParallelTesting.constants.FilePath;
 import com.konakart.KonakartParallelTesting.dataProvider.TestDataProvider;
+import com.konakart.KonakartParallelTesting.extentreports.ExtentReporterNG;
 import com.konakart.KonakartParallelTesting.utils.ReadPropertiesFile;
 
 public class DynamicXML {
 
 	@Test(dataProvider = "dynamic_class", dataProviderClass = TestDataProvider.class)
-	public void runTestFile(String classname, String statusofclass) throws ClassNotFoundException {
+	public void runTestFile(String classname, String statusofclass,String url) throws ClassNotFoundException {
 		Properties props = ReadPropertiesFile.loadProperty(FilePath.CONFIG_FILE);
 
 		List<String> browsernames = new ArrayList<String>();
@@ -43,9 +45,10 @@ public class DynamicXML {
 			for (String browser : browsernames) {
 
 				XmlTest xmlTest1 = new XmlTest(xmlSuite);
-				Map<String, String> parameter1 = new HashMap<String, String>();
-				parameter1.put("browser", browser);
-				xmlTest1.setParameters(parameter1);
+				Map<String, String> parameter = new HashMap<String, String>();
+				parameter.put("browser", browser);
+				parameter.put("url", url);
+				xmlTest1.setParameters(parameter);
 				xmlTest1.setName("Test validate in " + browser);
 
 				// code to read your testNg file
@@ -63,6 +66,9 @@ public class DynamicXML {
 			suites.add(xmlSuite);
 
 			TestNG testng = new TestNG();
+			List<Class<? extends ITestNGListener>>listenerClasses=new ArrayList<Class<? extends ITestNGListener>>();
+			listenerClasses.add(ExtentReporterNG.class);
+			testng.setListenerClasses(listenerClasses);
 
 			testng.setXmlSuites(suites);
 

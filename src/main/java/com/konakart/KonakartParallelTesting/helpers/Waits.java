@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.konakart.KonakartParallelTesting.constants.FilePath;
+
 public class Waits {
 
 	public By selectLocator(String locator) {
@@ -45,35 +47,35 @@ public class Waits {
 
 	}
 
-	public WebElement waitElementToBeClickable(WebDriver driver, String locator, long waitingTime) {
-		WebDriverWait wait = new WebDriverWait(driver, waitingTime);
+	public WebElement waitElementToBeClickable(WebDriver driver, String locator) {
+		WebDriverWait wait = new WebDriverWait(driver, FilePath.TIMEOUT_INSECONDS);
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(selectLocator(locator)));
 		return element;
 
 	}
 
-	public WebElement waitElementToBeClickable(WebDriver driver, WebElement webElement, long waitingTime) {
-		WebDriverWait wait = new WebDriverWait(driver, waitingTime);
+	public WebElement waitElementToBeClickable(WebDriver driver, WebElement webElement) {
+		WebDriverWait wait = new WebDriverWait(driver, FilePath.TIMEOUT_INSECONDS);
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(webElement));
 		return element;
 
 	}
 
-	public WebElement waitVisibilityOf(WebDriver driver, WebElement webElement, long waitingTime) {
-		WebDriverWait wait = new WebDriverWait(driver, waitingTime);
+	public WebElement waitVisibilityOf(WebDriver driver, WebElement webElement) {
+		WebDriverWait wait = new WebDriverWait(driver, FilePath.TIMEOUT_INSECONDS);
 		WebElement element = wait.until(ExpectedConditions.visibilityOf(webElement));
 		return element;
 	}
 
-	public WebElement waitPresenceOfElementLocated(WebDriver driver, String locator, long waitingTime) {
-		WebDriverWait wait = new WebDriverWait(driver, waitingTime);
+	public WebElement waitPresenceOfElementLocated(WebDriver driver, String locator) {
+		WebDriverWait wait = new WebDriverWait(driver, FilePath.TIMEOUT_INSECONDS);
 		WebElement element = wait.until(ExpectedConditions.presenceOfElementLocated(selectLocator(locator)));
 		return element;
 	}
 
-	public FluentWait<WebDriver> fluientWait(WebDriver driver, long pollingTime, long maxWaitTime) {
+	public FluentWait<WebDriver> fluientWait(WebDriver driver) {
 		FluentWait<WebDriver> wait = new FluentWait<WebDriver>(driver).ignoring(Exception.class)
-				.pollingEvery(Duration.ofSeconds(pollingTime)).withTimeout(Duration.ofSeconds(maxWaitTime));
+				.pollingEvery(Duration.ofSeconds(FilePath.POLLING_TIMEOUT_INSECONDS)).withTimeout(Duration.ofSeconds(FilePath.TIMEOUT_INSECONDS));
 		return wait;
 	}
 

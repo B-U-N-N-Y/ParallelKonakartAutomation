@@ -9,15 +9,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
 import com.konakart.KonakartParallelTesting.constants.FilePath;
 import com.konakart.KonakartParallelTesting.constants.GridConnection;
-import com.konakart.KonakartParallelTesting.extentreports.ExtentReport;
 import com.konakart.KonakartParallelTesting.utils.ReadPropertiesFile;
-import io.github.bonigarcia.wdm.*;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 /**
  * This class operate to choose the driver and choose that it run with grid
@@ -43,12 +43,12 @@ public class TestBase {
 	 * @throws IOException
 	 */
 	@SuppressWarnings("deprecation")
-	@Parameters("browser")
+	@Parameters({"browser","url"})
 	@BeforeTest
-	public void intitailizeBrowser(String browser) throws IOException {
+	public void intitailizeBrowser(String browser,String url) throws IOException {
 		this.browser = browser;
 		baseClass = ReadPropertiesFile.loadProperty(FilePath.CONFIG_FILE);
-		url = baseClass.getProperty("url");
+	//	url = baseClass.getProperty("url");
 		// browser = baseClass.getProperty("browser");
 		con = baseClass.getProperty("connection");
 		huburl = baseClass.getProperty("remoteconnectionurl");
@@ -74,7 +74,7 @@ public class TestBase {
 			}
 		} else if (con.equals("grid")) {
 			WebDriver drv = GridConnection.GridCon(driver, browser, huburl);
-			ExtentReport.driver = drv;
+			//ExtentReport.driver = drv;
 			driver.get(url);
 		}
 
@@ -84,8 +84,8 @@ public class TestBase {
 
 	}
 
-	@AfterTest()
-	public void endTest(){
+	@AfterClass()
+	public void endTest() {
 		driver.quit();
 	}
 }

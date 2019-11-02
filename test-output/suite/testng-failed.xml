@@ -3,14 +3,15 @@
 <suite thread-count="1" name="Failed suite [suite]" parallel="tests">
   <test thread-count="1" name="Test validate in chrome(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.phptravels.net/"/>
     <classes>
-      <class name="com.konakart.KonakartParallelTesting.testscripts.TableTest">
+      <class name="com.konakart.KonakartParallelTesting.testscripts.PhpTravelsTest">
         <methods>
-          <include name="test"/>
+          <include name="flightBookinf" invocation-numbers="0"/>
           <include name="intitailizeBrowser"/>
           <include name="endTest"/>
         </methods>
-      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.TableTest -->
+      </class> <!-- com.konakart.KonakartParallelTesting.testscripts.PhpTravelsTest -->
     </classes>
   </test> <!-- Test validate in chrome(failed) -->
 </suite> <!-- Failed suite [suite] -->

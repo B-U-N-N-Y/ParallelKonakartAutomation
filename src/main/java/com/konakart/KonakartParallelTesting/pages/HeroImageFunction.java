@@ -11,7 +11,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 
-import com.konakart.KonakartParallelTesting.extentreports.ExtentReport;
 import com.konakart.KonakartParallelTesting.helpers.Utility;
 import com.konakart.KonakartParallelTesting.logreports.LogReport;
 
@@ -64,7 +63,7 @@ public class HeroImageFunction {
 		// System.out.println(specification);
 		Assert.assertTrue(specification.contains(validatedata), "Failed");
 	//	ExtentReport.messagePrint("specification validate successfully");
-		log.info("specification validate successfully");
+		logreport.info("specification validate successfully");
 	}
 
 	/**
@@ -80,7 +79,7 @@ public class HeroImageFunction {
 		 System.out.println(description);
 		Assert.assertTrue(description.contains(validatedata), "Failed");
 		//ExtentReport.messagePrint("description validate successfully");
-		log.info("description validate successfully");
+		logreport.info("description validate successfully");
 	}
 
 	/**
@@ -117,12 +116,12 @@ public class HeroImageFunction {
 					utility.getElement(loc.getProperty("loc.konakart.sortbydatemostrecent.txt")).getText())) {
 				Assert.assertTrue(difference >= 0, "Sorting Functionality Failed");
 			//	ExtentReport.messagePrint("Sorting by date Functionality Working Properly");
-				log.info("Sorting by date Functionality Working Properly");
+				logreport.info("Sorting by date Functionality Working Properly");
 			} else if (sortingoption.equalsIgnoreCase(
 					utility.getElement(loc.getProperty("loc.konakart.sortbydateoldest.txt")).getText())) {
 				Assert.assertTrue(difference <= 0, "Sorting Functionality Failed");
 			//	ExtentReport.messagePrint("Sorting by date Functionality Working Properly");
-				log.info("Sorting by date Functionality Working Properly");
+				logreport.info("Sorting by date Functionality Working Properly");
 			}
 
 		}
@@ -169,12 +168,12 @@ public class HeroImageFunction {
 					utility.getElement(loc.getProperty("loc.konakart.sortbyratinghightolow.txt")).getText())) {
 				Assert.assertTrue(difference >= 0, "Sorting Functionality Failed");
 				//ExtentReport.messagePrint("Sorting by rating Functionality Working Properly");
-				log.info("Sorting by rating Functionality Working Properly");
+				logreport.info("Sorting by rating Functionality Working Properly");
 			} else if (sortingoption.equalsIgnoreCase(
 					utility.getElement(loc.getProperty("loc.konakart.sortbyratinglowtohigh.txt")).getText())) {
 				Assert.assertTrue(difference <= 0, "Sorting Functionality Failed");
 			//	ExtentReport.messagePrint("Sorting by rating Functionality Working Properly");
-				log.info("Sorting by rating Functionality Working Properly");
+				logreport.info("Sorting by rating Functionality Working Properly");
 			}
 		}
 	}
